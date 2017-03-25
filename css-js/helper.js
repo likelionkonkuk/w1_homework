@@ -1,7 +1,7 @@
 //HTML태그를 미리 만들어서 변수에 담았다.
 //필요에 따라 수정해도 좋다.
 
-var HTMLHi='<span>%data%</span>'
+var HTMLHi='<span>%data%</span>',
     HTMLName = '<h1 id="name">%data%</h1>',
     HTMLAge = '<span>%data%</span>',
     HTMLEducation = '<span>%data%</span>',
