@@ -6,7 +6,7 @@ var HTMLName = '<div>%data%</div>',
     HTMLEducation = '<div>%data%</div>',
     HTMLMajor = '<div>%data%</div>',
     HTMLLike = '<div>%data%</div>'
-    HTMLSlogan = '<div>%data%</div>';;
+    HTMLSlogan = '<div>%data%</div>';
 
 
 //자기소개에 필요한 정보를 담았다.
