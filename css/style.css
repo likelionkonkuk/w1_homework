@@ -1,1 +1,13 @@
 /* 스타일시트를 작성하세요 */
+.profile-image{
+  width: 300px;
+}
+
+hr{
+  border-top: 1px solid #000;
+}
+
+#address span{
+   font-weight: bold;
+   color: blue;
+}
