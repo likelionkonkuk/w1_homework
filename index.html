@@ -5,7 +5,7 @@
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+	
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
 	<title>ABOUT HYUNKYUNG</title>
@@ -63,16 +63,6 @@
 			        <h4 class="modal-title">ABOUT HYUNKYUNG</h4>
 			        </div>
 			        <div class="modal-body">
-			        <p>
-			          	이름 : 이현경<br>
-			          	나이 : 22<br>
-			          	직업 : 대학생<br>
-			          	학교 : 건국대학교<br>
-			          	학과 : 응용통계학과<br>
-			          	취미 : 잠자기<br>
-			          	목표 : 멋사 열심히 하기<br>
-			          	각오 : 이번학기 힘들더라도 좋은결과 있도록 노력하쟈!<br>
-			        </p>
 			        </div>
 			    	<div class="modal-footer">
 			          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
@@ -110,7 +100,8 @@
   	</ul>
 	</div>
 
-	<script>
+	<script src="helper.js">
+
 	//충돌방지라고 해서 적어놓긴 했는데 정확히 뭔지는 모름..!
 	$.noConflict();
 	var J = jquery;
@@ -125,6 +116,7 @@
  	 e.preventDefault()
   	$(this).tab('show')
 	})
+
 	//ABOUT (이미지)에 들어간 modal 스크립트 
 	$("#myModal").modal()
 	</script>
