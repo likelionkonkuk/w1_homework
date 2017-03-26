@@ -1,0 +1,2 @@
+[0326/115745.891:ERROR:exception_handler_server.cc(524)] ConnectNamedPipe: 파이프가 닫히는 중입니다. (0xE8)
+[0326/190407.871:ERROR:exception_handler_server.cc(524)] ConnectNamedPipe: 파이프가 닫히는 중입니다. (0xE8)
