@@ -1,33 +1,17 @@
-## 1주차 과제 : 자기소개페이지 만들기
+## 첫 과제 자기소개 만들기
+html에 박스가 어떻게 구성되어 있느냐에 따라 특정 class가 먹히는지 안먹히는지 달라짐. 그러니까 해당 클래스를 수정할때 상위 클래스들도 모두 확인해주면 css에 추가해야할 부분을 찾을 수 있음.
 
 
-
-- 부트스트랩을 사용해서 자기소개 페이지를 만드세요.
-- 부트스트랩은 `CDN`을 통해 연결하세요.
-- 이 과제는 추후 진행되는 수업 및 과제와 연결됩니다.
-- **최선을 다하세요**
-
-#### 디렉토리 구조
+##하면서 배운점
+f12를 통해 현재 보고있는 페이지의 구성을 확인하는 능력
+앞으로 페이지를 만들때 html과 css의 설계를 체계적으로 해야겠다는 점
+부트스트랩을 결국 파일로 받아서 확인해보니 class가 엄청많았고 실제로 html이 만들어질때 엄청 많은 클래스들의 집합으로 이루어짐
 ```
-index.html
-css/
-└──style.css
+<div class ---->
+<div class ---->
+중략
+</div>
+
 ```
-
-
-### 과제 유의사항
-- 배낀걸 들켰을경우 목이 뽑힐수 있습니다. (물리적으로)
-
-
-### 참고자료
-- [부트스트랩](http://getbootstrap.com/)
-- [폰트어썸](http://fontawesome.io/)
-
-
-## Author
-
-written by [천민우](https://project42da.github.io).
-
-![](https://avatars.githubusercontent.com/project42da?v=2&s=100)
-
-<a href="https://project42da.github.io" target="_blank" class="btn btn-black"><i class="fa fa-github fa-lg"></i> Visit on Github Page &rarr;</a>
+결국 class는 저렇게 계속 겹치게 되는데 어떤 class의 속성이 적용될지 항상 생각해 두어야함.
+결국 디자인할때에 폰트는 무슨폰트로할지 전체적인 틀을 짜들어가고 그에 맡게 css를 미리 만들어 두고 기능을 추가할때 css를 편집하는 방향으로 가야할것같음.

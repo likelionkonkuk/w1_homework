@@ -1,12 +1,145 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="author" content="이름">
-  <title>자기소개페이지</title>
-  <link rel="stylesheet" href="css/style.css">
+	<meta charset="UTF-8">
+	<title>과제테스트페이지입니다.</title>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+	<link href="https://fonts.googleapis.com/css?family=Roboto:300" rel="stylesheet">
+   	<link rel="stylesheet" type="text/css" href="css/style.css">
+   	<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
 </head>
+
+
 <body>
-  <h1>hello world!</h1>
+	<header class="header fixed clearfix navbar navbar-fixed-top">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-4">
+
+            <div class="header-left clearfix">
+              <div class="logo">
+                <a href="#banner"><img src="img/logo.png" alt="logo"></a>
+              </div>      
+            </div>
+
+          </div>
+          <div class="col-md-8">
+            <div class="header-right clearfix">
+              <div class="main-navigation">
+                <nav class="navbar" role="navigation">
+                  <div class="container-fluid">
+                    <div class="navbar-header">
+                      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-collapse-1">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                      </button>
+                    </div>
+
+                    <div class="collapse navbar-collapse scrollspy smooth-scroll" id="navbar-collapse-1">
+                      <ul class="nav navbar-nav navbar-right">
+                        <li class="active"><a href="#banner">Home</a></li>
+                        <li><a style="color: white;">About</a></li>
+                        <li><a style="color: white;">Portfolio</a></li>
+                        <li><a style="color: white;">Contact</a></li>
+                      </ul>
+                    </div>
+
+                  </div>
+                </nav>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+
+
+	<div class="banner">
+        <div class="banner-image">
+            <img src="img/bannerimage.png">
+        </div>
+        
+        <div class="banner-caption">
+          <div class="container">
+            <div class="row">
+              <div class="col-md-8 col-md-offset-2" data-animation-effect="fadeIn">
+                <h1 class="text-center">
+                  "I LOVE TO LEARN SOMETHING NEW"
+                </h1>
+                <p class="lead text-center">
+                  멋쟁이사자처럼에서 좋은 사람들과 함께하고 있습니다. <br>처음이라 어렵기도 하지만 열심히 배워보려고합니다.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+    </div>
+
+	<div class="section clearfix">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12">
+				<div class="space"></div>
+					<h1 class="title text-center">안녕하세요!</h1>
+					<p class="text-center">저는 건국대학교에 다니고 있는 김지훈입니다.</p>
+					<div class="space"></div>
+					<div class="row">
+						<div class="col-md-6">
+							<img src="img/me.jpg" alt="myface">
+							<div class="space"></div>
+						</div>
+						<div class="col-md-6">
+							<p>
+								저는 새롭게 배우는 것을 좋아합니다. 새로움이 주는 재미는 저를 기쁘게합니다. 그래서 항상 배우려고 노력하고 있습니다. 평소 프로그래밍 언어를 배우는데 관심이 있었는데, 이번 멋쟁이사자처럼 5기에 합류하게 되어서 매우 기쁩니다. 열심히 활동해서 많이 배워갈 수 있었으면 좋겠습니다.
+							</p>
+							<p>
+								처음 다루어보는 html과 css를 가지고 자기소개페이지를 만들어보고 있습니다. 정말 어렵고 html의 구조를 설계할때부터 css를 함께 만들어가야 한다는 것을 알았습니다. 아직은 초보지만 구조를 이해하려고 노력하고 있고 나중에는 좀 더 수월하게 페이지를 만들 수 있도록 하겠습니다.
+							</p>
+							<ul class="list-unstyled">
+								<li class="name">이름은?</li>
+								<li class="age">나이는?</li>
+								<li class="major">전공은?</li>
+								<li class="email">이메일주소는?</li>
+								<li class="description">저는?</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="container">
+		<div class="col-md-12">
+			<div class="space"></div>
+				<h1 class="title text-center">저는 이런걸 좋아합니다.</h1>
+				<p class="text-center">같이할 생각이 있다면 이야기해주세요!</p>
+				<div class="space"></div>
+			<div class="row">
+  			<div class="col-xs-6 col-md-3">
+    			<a href="#" class="thumbnail">
+      			<img src="img/learn.jpg" alt="learn">
+   				</a>
+   			</div>
+   			<div class="col-xs-6 col-md-3">
+   				<a href="#" class="thumbnail">
+      			<img src="img/pogi.jpg" alt="nopogi">
+   				</a>
+   			</div>
+   			<div class="col-xs-6 col-md-3">
+   				<a href="#" class="thumbnail">
+      			<img src="img/chicken.jpg" alt="chicken">
+   				</a>
+			</div>
+   			<div class="col-xs-6 col-md-3">
+   				<a href="#" class="thumbnail">
+      			<img src="img/snowboard.jpg" alt="snowboard">
+   				</a>
+ 			</div>
+		</div>
+    </div>
+
+<script src="css/helper.js"></script>
 </body>
 </html>

@@ -1,1 +1,63 @@
 /* 스타일시트를 작성하세요 */
+body {
+	font-family: 'Roboto', 
+	'KoPub Dotum', 'sans-serif';
+  	font-size: 20px;
+  	line-height: 1.42857143;
+  	color: #333;
+  	background-color: rgba(0,0,0,0);
+}
+
+.main-navigation .navbar-default {
+	background-color: transparent;
+	border: none;
+}
+
+.header {
+	color: #ffffff;
+	background-color: rgba(0, 0, 0, 0.10);
+	padding: 10px;
+}
+
+.banner-image {
+	vertical-align: middle;
+	min-height: 100%;
+	width: 100%;
+}
+
+.banner-caption {
+	position: absolute;
+	top: 40%;
+	width: 100%;
+	z-index: 2;
+}
+
+.banner {
+	width: 100%;
+	position: relative;
+	color: #fff;
+}
+.logo {
+	margin: 10px 10px 10px 0;
+}
+.body {
+    font-size: 20px;
+    line-height: 1.50;
+    color: #000000;
+    background-color: #ffffff;
+    position: relative;
+}
+
+img {
+	display: block;
+	max-width: 100%;
+	height: auto;
+}
+
+.space {
+	padding: 20px 0;
+}
+
+.name{
+	font-size: 15px;
+}
