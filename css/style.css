@@ -1,1 +1,42 @@
-/* 스타일시트를 작성하세요 */
+
+* {
+	margin-top: 5%;
+}
+
+.media-object {
+	height: 500px;
+}
+
+#song {
+	font-weight: bold;
+	font-color : blue;
+}
+
+.media-heading {
+	margin-top: 200px;
+	font-weight: bold;
+	font-size: 80px;
+}
+
+.body-school {
+	text-align: right;
+}
+
+.school {
+	margin-top: 200px;
+	font-weight: bold;
+	font-size: 50px;
+}
+
+.media-school {
+	height: 500px;
+}
+
+.media-sunflower {
+	height: 500px;
+}
+
+.information {
+	margin-top: 200px;
+	font-size: 80px;
+}
